@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+        String name = "  sadgh taban";
+        int age = 33;
+        String myNameAndAge= String.format("%s %d",name,age);
+       myNameAndAge=  myNameAndAge.toUpperCase();
+       myNameAndAge=  myNameAndAge.replace("  SADGH TABAN", "fanap");
+        System.out.println(myNameAndAge);
+        myNameAndAge= myNameAndAge.substring(0,5);
+       myNameAndAge= myNameAndAge.toLowerCase();
+        System.out.println(myNameAndAge);
+
+
+    }
+}
